@@ -15,6 +15,7 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone : ${EUREKA_URI:http://ec2-3-38-58-94.ap-northeast-2.compute.amazonaws.com:8761/eureka}
+    use-dns-for-fetching-service-urls: true
 
 spring:
   datasource:
