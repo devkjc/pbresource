@@ -10,8 +10,8 @@ eureka:
   instance:
     prefer-ip-address: true
   client:
-    register-with-eureka: false
-    fetch-registry: false
+    register-with-eureka: true
+    fetch-registry: true
     service-url:
       default-zone : http://ec2-3-38-58-94.ap-northeast-2.compute.amazonaws.com:8761/eureka/
 
