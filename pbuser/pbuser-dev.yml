@@ -9,6 +9,7 @@ management:
 eureka:
   instance:
     prefer-ip-address: false
+    ip-address: 3.36.124.148
   client:
     register-with-eureka: true
     fetch-registry: true
