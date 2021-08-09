@@ -78,7 +78,7 @@ security:
 
 logging:
   file:
-    path: /usr/local/pbsetting/logs
+    path: /usr/local/pbuser/logs
 #  level:
 #    org:
 #      springframework:
