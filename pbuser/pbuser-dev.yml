@@ -9,13 +9,12 @@ management:
 eureka:
   instance:
     prefer-ip-address: false
-    ip-address: 3.36.124.148
+    ipAddress: 3.36.124.148
   client:
     register-with-eureka: true
     fetch-registry: true
     service-url:
       defaultZone : ${EUREKA_URI:http://ec2-3-38-58-94.ap-northeast-2.compute.amazonaws.com:8761/eureka}
-    use-dns-for-fetching-service-urls: true
 
 spring:
   datasource:
