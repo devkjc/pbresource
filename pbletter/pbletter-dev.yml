@@ -17,7 +17,7 @@ eureka:
 
 spring:
   zipkin:
-    base-url: http://14.52.203.113:9411/zipkin/
+    base-url: http://14.52.203.113:9411/
   datasource:
     url: jdbc:mysql://postbird.cbysjphhbaea.ap-northeast-2.rds.amazonaws.com:3306/postbird?serverTimezone=Asia/Seoul
     username: admin
