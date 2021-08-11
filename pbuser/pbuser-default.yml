@@ -13,9 +13,11 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      default-zone : http://localhost:8761/eureka/
+      defaultZone : http://localhost:8761/eureka/
 
 spring:
+  zipkin:
+    base-url : http://14.52.203.113:9411/zipkin/
   datasource:
     url: jdbc:mysql://postbird.cbysjphhbaea.ap-northeast-2.rds.amazonaws.com:3306/postbird?serverTimezone=Asia/Seoul
     username: admin
