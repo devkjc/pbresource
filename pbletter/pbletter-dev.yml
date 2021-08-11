@@ -8,8 +8,7 @@ management:
         include: refresh
 eureka:
   instance:
-    prefer-ip-address: false
-    ipAddress: 3.36.124.148
+    prefer-ip-address: true
   client:
     register-with-eureka: true
     fetch-registry: true
@@ -37,7 +36,7 @@ spring:
 security:
   oauth2:
     resource:
-      userInfoUri: http://ec2-13-125-84-145.ap-northeast-2.compute.amazonaws.com:8887/user
+      userInfoUri: http://ec2-3-36-124-148.ap-northeast-2.compute.amazonaws.com:8887/user
 
 logging:
   file:

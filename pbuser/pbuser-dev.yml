@@ -8,8 +8,7 @@ management:
         include: refresh
 eureka:
   instance:
-    prefer-ip-address: false
-    ipAddress: 3.36.124.148
+    prefer-ip-address: true
   client:
     register-with-eureka: true
     fetch-registry: true
