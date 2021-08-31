@@ -13,7 +13,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone : ${EUREKA_URI:http://ec2-3-38-58-94.ap-northeast-2.compute.amazonaws.com:8761/eureka}
+      defaultZone : ${EUREKA_URI:http://ec2-3-37-74-211.ap-northeast-2.compute.amazonaws.com:8761/eureka}
 
 spring:
   zipkin:
@@ -38,7 +38,7 @@ spring:
 security:
   oauth2:
     resource:
-      userInfoUri: http://ec2-3-36-124-148.ap-northeast-2.compute.amazonaws.com:8887/user
+      userInfoUri: http://ec2-3-34-151-247.ap-northeast-2.compute.amazonaws.com:8887/user
 
 logging:
   file:
