@@ -74,13 +74,13 @@ security:
   allowed-public-apis:
     - /favicon.ico
     - /session/login
-    - /public/*
+    - /public/*#
   exposed-headers:
     - X-Xsrf-Token
 
 logging:
   level:
-    org:
-      springframework:
-        security: DEBUG
+#    org:
+#      springframework:
+#        security: DEBUG
     root: INFO
