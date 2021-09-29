@@ -38,7 +38,7 @@ spring:
 security:
   oauth2:
     resource:
-      userInfoUri: http://ec2-3-34-151-247.ap-northeast-2.compute.amazonaws.com:8887/user
+      userInfoUri: http://ec2-3-34-151-247.ap-northeast-2.compute.amazonaws.com:8887/api/v1/user/login
 
 logging:
   file:
