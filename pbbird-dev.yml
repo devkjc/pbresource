@@ -1,0 +1,8 @@
+server:
+  port : 8884
+
+logging:
+  file:
+    path: /usr/local/pbbird/logs
+  level:
+    root: INFO

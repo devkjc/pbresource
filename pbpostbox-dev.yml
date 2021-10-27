@@ -1,0 +1,8 @@
+server:
+  port : 8885
+
+logging:
+  file:
+    path: /usr/local/pbpostbox/logs
+  level:
+    root: INFO
