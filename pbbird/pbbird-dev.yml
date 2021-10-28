@@ -1,5 +1,5 @@
 server:
-  port : 5554
+  port : 5004
 
 logging:
   file:
