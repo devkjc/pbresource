@@ -5,9 +5,9 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone : ${EUREKA_URI:http://ec2-3-37-74-211.ap-northeast-2.compute.amazonaws.com:8761/eureka}
+      defaultZone : ${EUREKA_URI:http://58.149.234.98:8761/eureka}
 
 security:
   oauth2:
     resource:
-      userInfoUri: http://ec2-3-34-151-247.ap-northeast-2.compute.amazonaws.com:8887/api/v1/user/login
+      userInfoUri: http://58.149.234.98:8887/api/v1/user/login

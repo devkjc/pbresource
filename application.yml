@@ -13,8 +13,8 @@ eureka:
       defaultZone : http://localhost:8761/eureka/
 
 spring:
-  zipkin:
-    base-url: http://58.149.234.98:9411/
+#  zipkin:
+#    base-url: http://58.149.234.98:9411/
   datasource:
     url: jdbc:mysql://postbird.cbysjphhbaea.ap-northeast-2.rds.amazonaws.com:3306/postbird?serverTimezone=Asia/Seoul
     username: admin
