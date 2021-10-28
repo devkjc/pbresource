@@ -3,6 +3,5 @@ server:
 
 logging:
   file:
-    path: /usr/local/pbpostbox/logs
-  level:
+    path: /usr/local/pbuser/logs
     root: INFO
