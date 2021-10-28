@@ -36,7 +36,3 @@ security:
   oauth2:
     resource:
       userInfoUri: http://localhost:5001/api/v1/user/login
-
-logging:
-  level:
-    root: INFO
