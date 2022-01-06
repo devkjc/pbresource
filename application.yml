@@ -23,7 +23,7 @@ spring:
     tomcat:
       init-s-q-l: select 1
   jpa:
-    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    database-platform: org.hibernate.spatial.dialect.mysql.MySQL56InnoDBSpatialDialect
     database: mysql
     generate-ddl: true
     properties:
