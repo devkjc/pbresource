@@ -6,3 +6,7 @@ logging:
     path: /usr/local/pbpostbox/logs
   level:
     root: INFO
+
+spring:
+  jpa:
+    database-platform: org.hibernate.spatial.dialect.mysql.MySQL56InnoDBSpatialDialect
