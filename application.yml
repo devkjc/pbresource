@@ -38,8 +38,9 @@ security:
       userInfoUri: http://localhost:5001/api/v1/user/login
 
 logging:
-  io:
-    swagger:
-      models:
-        parameters:
-          AbstractSerializableParameter: error
+  level:
+    io:
+      swagger:
+        models:
+          parameters:
+            AbstractSerializableParameter: error
