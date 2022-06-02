@@ -3,7 +3,7 @@ server:
 
 logging:
   file:
-    path: /usr/local/pbpostbox/logs
+    path: /usr/local/pbpost/logs
   level:
     root: INFO
 
