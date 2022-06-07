@@ -16,7 +16,8 @@ spring:
 #  zipkin:
 #    base-url: http://58.149.234.98:9411/
   datasource:
-    url: jdbc:mysql://postbird.cbysjphhbaea.ap-northeast-2.rds.amazonaws.com:3306/postbird?serverTimezone=Asia/Seoul
+#    url: jdbc:mysql://postbird.cbysjphhbaea.ap-northeast-2.rds.amazonaws.com:3306/postbird?serverTimezone=Asia/Seoul
+    url: jdbc:mysql://postbird.cbysjphhbaea.ap-northeast-2.rds.amazonaws.com:3306/postbird
     username: admin
     password: '{cipher}7f7872e62dd7e0a862661b267a5e1750515bc8ff34be934c4b71bdbee61e7b1d'
     driver-class-name: com.mysql.cj.jdbc.Driver
